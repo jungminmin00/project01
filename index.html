@@ -37,11 +37,11 @@
         <div>
             <h2 class="hide">메인네비게이션</h2>
             <ul>
-                <li><a href="#">상품</a></li>
-                <li><a href="#">이벤트</a></li>
-                <li><a href="#">리뷰</a></li>
-                <li><a href="#">커뮤니티</a></li>
-                <li><a href="#">어바웃 스킨푸드</a></li>
+                <li><a href="#wrap">상품</a></li>
+                <li><a href="#box02">이벤트</a></li>
+                <li><a href="#box03">리뷰</a></li>
+                <li><a href="#box04">커뮤니티</a></li>
+                <li><a href="#box05">어바웃 스킨푸드</a></li>
             </ul>
             <p><i class="fa-solid fa-xmark"></i></p>
         </div>
@@ -147,7 +147,7 @@
                         </dl>
                     </li>
                     <li>
-                        <a href="#"><img src="./images/box03/box02/box02_pro05.jpg" alt="상품 이미지"></a>
+                        <a href="#"><img src="./images/box02/box02_pro05.jpg" alt="상품 이미지"></a>
                         <dl class="product">
                             <dt>블랙슈가 퍼펙트 에센셜 스크럽</dt>
                             <dd>\<strong>2,2000</strong></dd>
@@ -409,6 +409,22 @@
         </div>
     </footer>
 </div>
-<script></script>
+<script>
+$(function(){
+    let windowW = $(window).width();
+    console.log(windowW);
+    if(windowW >= 1170){
+        nav();
+    }else if(windowW < 1169 && windowW >= 980){
+        nav();
+    }else if(windowW < 979 && windowW >= 580){
+        // 타블릿
+        // mNav();
+    }else if(windowW < 579 ){
+        // 모바일
+        // mNav();
+    }      
+});
+</script>
 </body>
 </html>
