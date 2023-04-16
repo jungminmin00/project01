@@ -441,19 +441,7 @@ nav p{display: none;}
     box-sizing: border-box;
 }
 #box06 li img{ width: 80px;}
-#box06 p{
-    position: absolute;
-    right: 600px; top: 0;
-}
-#box06 input{
-    padding: 10px 30px;
-    font-weight: lighter;
-    font-size: 18px;
-    background-color: #fff;
-    border: 1px solid rgba(121, 120, 120, 0.5);
-    color: #222;
-    box-sizing: border-box;
-}
+
 
 /* aside */
 aside{
