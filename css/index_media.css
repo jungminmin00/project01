@@ -42,12 +42,12 @@
 
 /* nav */
 nav{
-    width: 700px; height: 100vh;
+    width: 100%; height: 100vh;
     z-index: 2000;
     left: 0; top: 0 ;
     position: fixed;
     background-color: rgba(54, 54, 54, 0.9);
-    margin-left: -700px;
+    margin-left: -100%;
 }
 nav>div{
     width: 435px;
@@ -254,12 +254,11 @@ header #navMenu{
 
     /* nav */
     nav{
-        width: 579px; height: 100vh;
+        width: 100%; height: 100vh;
         z-index: 2000;
-        left: 0; top: 0 ;
+        left: -100%; top: 0 ;
         position: fixed;
         background-color: rgba(54, 54, 54, 0.9);
-        margin-left: -579px;
     }
     nav>div{
         width: 300px;
