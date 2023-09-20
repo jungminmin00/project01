@@ -23,7 +23,9 @@
 /* 타블릿 */
 @media screen and (max-width:979px) and (min-width:580px){
 /* 공통부분 */
-
+    body{
+        width: 100%;
+    }
     /* header */
     header>div{
         /* width: 98%; */
@@ -47,7 +49,7 @@ nav{
     left: 0; top: 0 ;
     position: fixed;
     background-color: rgba(54, 54, 54, 0.9);
-    margin-left: -100%;
+    /* margin-left: -100%; */
 }
 nav>div{
     width: 435px;
@@ -73,9 +75,12 @@ nav p{
     display: block;
     font-size: 35px;
     color: #fff;
-    right: 20px; top: 20px;
+    right: 45px; top: 45px;
 }
     /* box01 */
+    #box01{
+        height: 60vh;
+    }
     #box01 .all>li>div>dl{
         width:600px;
         font-size: 30px;
@@ -90,6 +95,11 @@ nav p{
     #box01 p{
         width: 40px; height: 40px;
         font-size: 25px;
+    }
+    #box01 .all>li>img{
+        max-width: 100%;
+        object-fit: none;
+        height: 60vh;
     }
 
 /* box02 */
@@ -291,11 +301,17 @@ header #navMenu{
 /* #box01 */
 #box01{    
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     background: url('../images/box01/mobile.jpg') no-repeat;
     /* padding: 0;position: relative; */}
 #box01 .show{display: none;}
 #box01 p{display: none;}
+
+#box01 .all>li>img{
+    max-width: 100%;
+    object-fit: none;
+    height: 100vh;
+}
 
     /* box02 */
     #box02{
